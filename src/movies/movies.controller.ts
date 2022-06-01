@@ -28,7 +28,7 @@ export class MoviesController {
   // query 쓰는 방법
   @Get('search')
   search(@Query('year') searchingYear: string) {
-    return `search ${searchingYear}`;
+    return `search ${searchingYear}`; 
   }
 
   // 이런식으로 params 전달해줌
